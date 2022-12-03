@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP-Number</title>
+</head>
+<body>
+    <h1>This is a OTP-Number</h1>
+    <input type="button" value="OtpCode" onclick="otp()" style="color:white; background-color:brown; cursor: pointer;" >
+
+    <p id="generate" style="color: blue;"></p>
+</body>
+<script>
+function otp(){
+    let num  = "1234567890";
+    let x = "";
+for (i=0; i<4; i++){
+    x += num[Math.floor(Math.random()*4)];
+}
+ document.getElementById("generate").innerHTML = "Your otp is here:- " +x;
+ }
+</script>
+</html>

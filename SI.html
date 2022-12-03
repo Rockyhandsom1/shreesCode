@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Interest</title>
+</head>
+<body>
+    <h1>This is a Simple Interest..</h1>
+    Principle:
+    <input type="number" value="" id="p"><br>
+    Time:
+    <input type="number" value="" id="t"><br>
+    Rate:
+    <input type="number" value="" id="r"><br>
+
+    <input onclick="Calculate()" type="button"  value="Calculate" id="SI">
+    <p id="result"></p>
+   
+</body>
+<script>
+    function Calculate(){
+        let p = document.getElementById('p').value;
+        let t = document.getElementById('t').value;
+        let r = document.getElementById('r').value;
+        let SI = document.getElementById('result');
+        result.innerHTML = "the simple imterest is " + (p*t*r/100);
+    }
+    </script>
+</html>
