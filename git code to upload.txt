@@ -20,4 +20,5 @@ tail >path to id_rsa.pub> # this key to your ssh github account in setting
 git remote add origin git@github.com:Rockyhandsom1/shreesCode.git
 git push origin master/main
 
+git commit -m "Added git code to upload"--> filename
 
