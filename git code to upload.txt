@@ -1,0 +1,23 @@
+git branch
+git branch -a
+
+git remote add origin ---> https://github.com/Rockyhandsom1/shreesCode.git<---
+git remote -v
+git push origin master
+
+touch .gitignore
+git config --global user.name "Rockyhandsom1"
+git config --global user.email "rockyhandsom039@gmail.com"
+
+touch .gitignore
+git init
+git add .  --> add all data
+git commit -m "Initial commit"
+git status  --> to see details.
+add ssh in you github to access the computer -- ssh-keygen -t rsa -b 4096 
+-C "your email"
+tail >path to id_rsa.pub> # this key to your ssh github account in setting
+git remote add origin git@github.com:Rockyhandsom1/shreesCode.git
+git push origin master/main
+
+
